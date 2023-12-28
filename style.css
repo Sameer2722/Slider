@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+  background-color: #e38585;
+  padding: 100px;
+}
+.slider{
+  height: 100%;
+  width: 100%;
+}
+.slide-item {
+  height: 100%;
+  width: 100%;
+  /* padding: 20px; */
+}
+.slide-item img {
+    height: 100%;
+    max-width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+.slick-slide{
+    transform: scale(0.8);
+    transition: all 0.4s ease-in-out;
+    padding: 20px 0;
+}
+.slick-center{
+    transform: scale(1.1);
+}
